@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="popup.css" />
+    <script src="popup.js" nonce="your_generated_nonce"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Key-Value Extension</h1>
+      <div>
+        <label for="key">Key:</label>
+        <input type="text" id="key" />
+      </div>
+      <div>
+        <label for="value">Value:</label>
+        <input type="text" id="value" />
+      </div>
+      <button id="addBtn">Add</button>
+      <button id="removeBtn">Remove</button>
+      <button id="clearBtn">Clear All</button>
+      <hr />
+      <div>
+        <h2>Stored Key-Value Pairs:</h2>
+        <ul id="keyValueList"></ul>
+      </div>
+    </div>
+  </body>
+</html>
